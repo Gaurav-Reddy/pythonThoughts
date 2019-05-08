@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df=pd.read_csv("C:/Users\Gaurav Reddy\Downloads\Viralcount_Drug.csv")
+df=pd.read_csv("\Viralcount_Drug.csv") #path to the data file
 
 x=df['drug']
 x=x[:,np.newaxis]
